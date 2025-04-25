@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-color-mode="light" data-dark-theme="dark" data-light-theme="light" lang="zh-CN">
+<html data-color-mode="light" data-dark-theme="dark" data-light-theme="light" lang="en">
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -12,11 +12,11 @@
     </script>
 <meta name="description" content="# TEST POST
 ## 标题2
-### 标题三。">
+### 标题三.">
 <meta property="og:title" content="test post">
 <meta property="og:description" content="# TEST POST
 ## 标题2
-### 标题三。">
+### 标题三.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://Paul0418.github.io/blauer-stein.github.io/post/test%20post.html">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/50451118?v=4">
@@ -55,7 +55,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <div id="header">
 <h1 class="postTitle">test post</h1>
 <div class="title-right">
-    <a href="https://Paul0418.github.io/blauer-stein.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
+    <a href="https://Paul0418.github.io/blauer-stein.github.io" id="buttonHome" class="btn btn-invisible circle" title="home">
         <svg class="octicon" width="16" height="16">
             <path id="pathHome" fill-rule="evenodd"></path>
         </svg>
@@ -68,7 +68,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </a>
     
 
-    <a class="btn btn-invisible circle" onclick="modeSwitch();" title="切换主题">
+    <a class="btn btn-invisible circle" onclick="modeSwitch();" title="switch theme">
         <svg class="octicon" width="16" height="16" >
             <path id="themeSwitch" fill-rule="evenodd"></path>
         </svg>
@@ -82,7 +82,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <h3>标题三</h3></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
-<button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
+<button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">comments</button>
 <div class="comments" id="comments"></div>
 
 </div>
@@ -99,7 +99,7 @@ if(""!=""){
     var startSite=new Date("");
     var diff=now.getTime()-startSite.getTime();
     var diffDay=Math.floor(diff/(1000*60*60*24));
-    document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
+    document.getElementById("runday").innerHTML="run "+diffDay+" days"+" • ";
 }
 </script></div>
 </body>
@@ -180,6 +180,6 @@ function iFrameLoading(){
 
 
 </script>
-
+<script src='https://blog.meekdai.com/Gmeek/plugins/articletoc.js'></script>
 
 </html>

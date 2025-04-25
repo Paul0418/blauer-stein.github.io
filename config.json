@@ -3,8 +3,14 @@
     "subTitle":"Persönlicher Blog",
     "avatarUrl":"https://avatars.githubusercontent.com/u/50451118?v=4",
     "GMEEK_VERSION":"last",
+    "displayTitle":"pre",
     "singlePage":["about"],
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/articletoc.js'></script>",
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>",
+    "email":"paulchen@163.com",
+    "startSite":"04/24/2025",
+    "themeMode":"fix",
+    "dayTheme":"light",
+    "nightTheme":"Light Tritanopia",
     "i18n":"EN"
 }
